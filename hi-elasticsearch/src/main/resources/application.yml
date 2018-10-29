@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 119.23.167.190:9300
+      local: false
+      repositories:
+        enabled: true
+      client-transport-sniff=: false

@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://119.23.167.190/test
+server:
+  port: 8881

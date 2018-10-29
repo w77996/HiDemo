@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hi-common" />
+        <module name="hi-dubbo" />
+        <module name="hi-elasticsearch" />
+        <module name="hi-mongodb" />
+        <module name="hi-netty" />
+        <module name="hi-redis" />
+        <module name="hi-springboot-cros" />
+        <module name="hi-springboot-okhttp" />
+        <module name="hi-threadpool" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
