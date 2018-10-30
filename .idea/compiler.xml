@@ -11,6 +11,7 @@
         <module name="hi-elasticsearch" />
         <module name="hi-mongodb" />
         <module name="hi-netty" />
+        <module name="hi-rabbitmq" />
         <module name="hi-redis" />
         <module name="hi-springboot-cros" />
         <module name="hi-springboot-okhttp" />

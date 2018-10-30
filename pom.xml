@@ -18,6 +18,7 @@
         <module>hi-mongodb</module>
         <module>hi-springboot-cros</module>
         <module>hi-dubbo</module>
+        <module>hi-rabbitmq</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/hi-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-cros" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-okhttp" charset="UTF-8" />
