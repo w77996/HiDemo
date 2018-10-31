@@ -40,7 +40,8 @@ public class RabbitMqReceiver {
      */
     @RabbitListener(queues = {"REDIRECT_QUEUE"})
     public void redirect(Message message, Channel channel) throws IOException {
+        log.info("88888888888888");
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
-        log.debug("dead message  10s 后 消费消息 {}",new String (message.getBody()));
+        log.info("dead message  10s 后 消费消息 {}",new String (message.getBody()));
     }
 }

@@ -1,5 +1,6 @@
 package com.w77996.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.MessagePostProcessor;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -16,6 +17,7 @@ import java.util.UUID;
  * @create: 2018-10-30 13:11
  **/
 @RestController
+@Slf4j
 public class SendController {
 
     @Autowired
@@ -39,6 +41,7 @@ public class SendController {
             messageProperties.setExpiration("2000");
             return message;
         };
+        log.info("ddddd");
 //         向DL_QUEUE 发送消息  10*1000毫秒后过期 形成死信
         rabbitTemplate.convertAndSend("DL_EXCHANGE", "DL_KEY", p, messagePostProcessor, correlationData);
         return "ok";
