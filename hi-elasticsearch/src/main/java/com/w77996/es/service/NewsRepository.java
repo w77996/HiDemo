@@ -11,4 +11,6 @@ import org.springframework.stereotype.Component;
  **/
 @Component
 public interface NewsRepository extends ElasticsearchRepository<News,Integer> {
+
+
 }

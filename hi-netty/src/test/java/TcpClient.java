@@ -17,12 +17,13 @@ public class TcpClient {
 
         // IMEI： 869758001213076  对应token：1qaz
         // IMEI:869758001213084  对应token：2wsx
-        String json = "{\"type\":1,\"imei\":\"123456789012380\", \"no\":\"1234567889\",\"timestamp\":1501123709,\"data\": {\"dv\":\"divNo.1\",\"sd\":\"sdV1\",}}{\"type\":32,\"a\":0,\"imei\":\"123456789012380\", \"no\":\"1234567889\",\"timestamp\":1501123709,\"data\": {\"dv\":\"divNo.1\",\"sd\":\"sdV1\",}}";
+        //String json = "{\"type\":1,\"imei\":\"123456789012380\", \"no\":\"1234567889\",\"timestamp\":1501123709,\"data\": {\"dv\":\"divNo.1\",\"sd\":\"sdV1\",}}{\"type\":32,\"a\":0,\"imei\":\"123456789012380\", \"no\":\"1234567889\",\"timestamp\":1501123709,\"data\": {\"dv\":\"divNo.1\",\"sd\":\"sdV1\",}}";
+        String json = "{\"msgType\":\"login \",\"defaultName\":\"defaultName\"}";
 
         //  String host = "47.94.221.139";
         String host = "127.0.0.1";
         try {
-            socket = new Socket(host, 7777);
+            socket = new Socket(host, 8887);
             out = socket.getOutputStream();
 
             // 请求服务器

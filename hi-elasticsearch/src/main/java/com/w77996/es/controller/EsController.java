@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @description:
@@ -31,5 +32,13 @@ public class EsController {
         }
         newsRepository.saveAll(list);
         log.info("success");
+    }
+
+    @GetMapping("/list")
+    public String okList(){
+
+        Optional list = newsRepository.findById(1);
+
+        return list.get().toString();
     }
 }

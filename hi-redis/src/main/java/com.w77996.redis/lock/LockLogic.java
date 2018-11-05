@@ -3,7 +3,6 @@ package com.w77996.redis.lock;
 import com.w77996.redis.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 
@@ -54,7 +53,7 @@ public class LockLogic<T> {
 //            }
 //        }
 //    }
-
+//
 //    public <T> Result<T> runWithLockKeep(String key, int holdSeconds, Callable<T> callable) throws RuntimeException {
 //        return runWithLock(key, holdSeconds, true, callable);
 //    }

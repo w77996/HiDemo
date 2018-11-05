@@ -19,6 +19,7 @@
         <module>hi-springboot-cros</module>
         <module>hi-dubbo</module>
         <module>hi-rabbitmq</module>
+        <module>hi-kafka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

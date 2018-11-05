@@ -9,6 +9,7 @@
         <module name="hi-common" />
         <module name="hi-dubbo" />
         <module name="hi-elasticsearch" />
+        <module name="hi-kafka" />
         <module name="hi-mongodb" />
         <module name="hi-netty" />
         <module name="hi-rabbitmq" />
