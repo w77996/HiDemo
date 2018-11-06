@@ -35,10 +35,10 @@ public class EsController {
     }
 
     @GetMapping("/list")
-    public String okList(){
+    public Object okList(){
 
-        Optional list = newsRepository.findById(1);
+        Iterable<News> list = newsRepository.findAll();
 
-        return list.get().toString();
+        return list;
     }
 }
