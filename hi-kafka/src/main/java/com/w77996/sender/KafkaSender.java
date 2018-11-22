@@ -20,7 +20,7 @@ import java.util.UUID;
 @Slf4j
 public class KafkaSender {
     @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
+    private KafkaTemplate kafkaTemplate;
 
     private Gson gson = new GsonBuilder().create();
 

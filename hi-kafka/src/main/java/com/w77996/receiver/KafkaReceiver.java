@@ -17,17 +17,18 @@ import java.util.Optional;
 public class KafkaReceiver {
 
     @KafkaListener(topics = {"kk"})
-    public void listen(ConsumerRecord<?, ?> record) {
+    public void listen(ConsumerRecord<?, ?> consumerRecord) {
 
-        Optional<?> kafkaMessage = Optional.ofNullable(record.value());
-
-        if (kafkaMessage.isPresent()) {
-
-            Object message = kafkaMessage.get();
-
-            log.info("----------------- record =" + record);
-            log.info("------------------ message =" + message);
-        }
+//        Optional<?> kafkaMessage = Optional.ofNullable(record.value());
+//
+//        if (kafkaMessage.isPresent()) {
+//
+//            Object message = kafkaMessage.get();
+//
+//            log.info("----------------- record =" + record);
+//            log.info("------------------ message =" + message);
+//        }
+        log.info("Consumer->topic:{}, value:{}", consumerRecord.topic(), consumerRecord.value());
 
     }
 }

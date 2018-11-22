@@ -1,6 +1,8 @@
 package com.w77996.bean;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -10,6 +12,8 @@ import java.util.Date;
  * @create: 2018-11-05 12:49
  **/
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Message {
     private Long id;    //id
 

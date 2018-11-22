@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: kafka-tutorial
+    name: hi-kafka
   kafka:
     # 指定kafka 代理地址，可以多个
     bootstrap-servers: 47.52.198.122:9092
@@ -16,7 +16,7 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
     consumer:
       # 指定默认消费者group id
-      group-id: consumer-tutorial
+      group-id: consumer-id
       auto-offset-reset: earliest
       enable-auto-commit: true
       # 指定消息key和消息体的编解码方式
