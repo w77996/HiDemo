@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 import org.apache.tomcat.util.ExceptionUtils;
 
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -199,6 +200,14 @@ public class OkHttpUtil {
             }
         }
         return responseBody;
+    }
+
+    public static void main(String[] args) {
+        Map<String,String> stringStringMap = new HashMap<>();
+        stringStringMap.put("username","admin");
+        stringStringMap.put("password","admin123");
+
+       System.out.print( OkHttpUtil.postJsonParams("http://localhost:8888/login","{\"username\":\"admin\",\"password\":\"admin123\"}"));
     }
 
 }
