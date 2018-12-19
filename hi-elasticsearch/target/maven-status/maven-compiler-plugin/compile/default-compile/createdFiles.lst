@@ -1,0 +1,4 @@
+com\w77996\es\controller\EsController.class
+com\w77996\es\ElasticsearchApplication.class
+com\w77996\es\entity\News.class
+com\w77996\es\service\NewsRepository.class

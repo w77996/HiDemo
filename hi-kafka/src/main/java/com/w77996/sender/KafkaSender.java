@@ -19,6 +19,7 @@ import java.util.UUID;
 @Component
 @Slf4j
 public class KafkaSender {
+
     @Autowired
     private KafkaTemplate kafkaTemplate;
 
