@@ -65,5 +65,8 @@ public class OpsList {
 //
         redisTemplate3.opsForValue().set("666", "000");
         log.info(redisTemplate3.opsForValue().get("666") + "dddd");
+
+
+
     }
 }

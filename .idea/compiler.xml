@@ -21,21 +21,5 @@
         <module name="hi-threadpool" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hi-common" target="1.8" />
-      <module name="hi-demo" target="1.8" />
-      <module name="hi-dubbo" target="1.8" />
-      <module name="hi-elasticsearch" target="1.8" />
-      <module name="hi-env" target="1.8" />
-      <module name="hi-kafka" target="1.8" />
-      <module name="hi-mongodb" target="1.8" />
-      <module name="hi-mult-datasource" target="1.8" />
-      <module name="hi-netty" target="1.8" />
-      <module name="hi-rabbitmq" target="1.8" />
-      <module name="hi-redis" target="1.8" />
-      <module name="hi-springboot-cros" target="1.8" />
-      <module name="hi-springboot-okhttp" target="1.8" />
-      <module name="hi-threadpool" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
