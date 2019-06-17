@@ -22,6 +22,8 @@
         <module>hi-kafka</module>
         <module>hi-mult-datasource</module>
         <module>hi-env</module>
+        <module>hi-zookeeper</module>
+        <module>hi-elastic-job</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
