@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elastic-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-env" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-kafka" charset="UTF-8" />
@@ -15,5 +16,6 @@
     <file url="file://$PROJECT_DIR$/hi-springboot-cros" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-okhttp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-threadpool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-zookeeper" charset="UTF-8" />
   </component>
 </project>

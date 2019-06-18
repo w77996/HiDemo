@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="env" />
         <module name="hi-common" />
         <module name="hi-dubbo" />
+        <module name="hi-elastic-job" />
         <module name="hi-elasticsearch" />
         <module name="hi-env" />
         <module name="hi-kafka" />
@@ -19,7 +21,27 @@
         <module name="hi-springboot-cros" />
         <module name="hi-springboot-okhttp" />
         <module name="hi-threadpool" />
+        <module name="hi-zookeeper" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="env" options="-parameters" />
+      <module name="hi-common" options="-parameters" />
+      <module name="hi-dubbo" options="-parameters" />
+      <module name="hi-elastic-job" options="-parameters" />
+      <module name="hi-elasticsearch" options="-parameters" />
+      <module name="hi-kafka" options="-parameters" />
+      <module name="hi-mongodb" options="-parameters" />
+      <module name="hi-mult-datasource" options="-parameters" />
+      <module name="hi-netty" options="-parameters" />
+      <module name="hi-rabbitmq" options="-parameters" />
+      <module name="hi-redis" options="-parameters" />
+      <module name="hi-springboot-cros" options="-parameters" />
+      <module name="hi-springboot-okhttp" options="-parameters" />
+      <module name="hi-threadpool" options="-parameters" />
+      <module name="hi-zookeeper" options="-parameters" />
+    </option>
   </component>
 </project>
