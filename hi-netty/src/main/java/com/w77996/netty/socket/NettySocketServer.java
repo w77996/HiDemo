@@ -29,6 +29,7 @@ public class NettySocketServer implements InitializingBean, DisposableBean {
 		b.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).childHandler(serverChannelInitializer)
 				.option(ChannelOption.SO_BACKLOG, 128).childOption(ChannelOption.SO_KEEPALIVE, true);
 
+
 		// ChannelFuture future;
 		try {
 			logger.info("===start socket:" + port);

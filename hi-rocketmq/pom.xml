@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hi-demo</artifactId>
+        <groupId>com.w77996</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>hi-rocketmq</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hi-rocketmq-lazyaudio</module>
+        <module>hi-rocketmq-sample</module>
+        <module>hi-rocketmq-order</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.w77996</groupId>
+            <artifactId>hi-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

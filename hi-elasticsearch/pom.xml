@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hi-elasticsearch</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hi-es-alias</module>
+    </modules>
 
     <dependencies>
         <dependency>

@@ -16,7 +16,7 @@ import java.util.Optional;
 @Slf4j
 public class KafkaReceiver {
 
-    @KafkaListener(topics = {"kk"})
+    @KafkaListener(topics = {"canal-event-topic-test"})
     public void listen(ConsumerRecord<?, ?> consumerRecord) {
 
 //        Optional<?> kafkaMessage = Optional.ofNullable(record.value());

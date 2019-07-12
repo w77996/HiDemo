@@ -24,6 +24,10 @@
         <module>hi-env</module>
         <module>hi-zookeeper</module>
         <module>hi-elastic-job</module>
+        <module>hi-resin</module>
+        <module>hi-exception</module>
+        <module>hi-rocketmq</module>
+        <module>hi-easyexcel</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

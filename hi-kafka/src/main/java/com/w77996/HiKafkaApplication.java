@@ -36,6 +36,7 @@ public class HiKafkaApplication {
 //        }
         public static void main(String[] args) throws InterruptedException {
             ApplicationContext context = SpringApplication.run(HiKafkaApplication.class, args);
+
             KafkaSender producer = context.getBean(KafkaSender.class);
 
             for (int i = 1; i < 10; i++) {
