@@ -28,6 +28,8 @@
         <module>hi-exception</module>
         <module>hi-rocketmq</module>
         <module>hi-easyexcel</module>
+        <module>hi-bit</module>
+        <module>hi-mahout</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

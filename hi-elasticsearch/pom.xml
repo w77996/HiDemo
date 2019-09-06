@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>hi-es-alias</module>
+        <module>hi-es-lazyaudio</module>
     </modules>
 
     <dependencies>

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="env" />
+        <module name="hi-bit" />
         <module name="hi-common" />
         <module name="hi-dubbo-common" />
         <module name="hi-dubbo-consume" />
@@ -16,7 +18,8 @@
         <module name="hi-env" />
         <module name="hi-es-alias" />
         <module name="hi-exception" />
-        <module name="hi-kafka" />
+        <module name="hi-kafka-lazyaudio" />
+        <module name="hi-mahout" />
         <module name="hi-mongodb" />
         <module name="hi-mult-datasource" />
         <module name="hi-netty" />
@@ -24,18 +27,23 @@
         <module name="hi-redis" />
         <module name="hi-resin" />
         <module name="hi-rocketmq-lazyaudio" />
-        <module name="hi-rocketmq-order" />
         <module name="hi-rocketmq-sample" />
+        <module name="hi-rocketmq-spring" />
         <module name="hi-springboot-cros" />
         <module name="hi-springboot-okhttp" />
         <module name="hi-threadpool" />
         <module name="hi-zookeeper" />
+        <module name="lazyaudio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hi-rocketmq-order" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="env" options="-parameters" />
+      <module name="hi-bit" options="-parameters" />
       <module name="hi-common" options="-parameters" />
       <module name="hi-dubbo" options="-parameters" />
       <module name="hi-dubbo-common" options="-parameters" />
@@ -47,6 +55,8 @@
       <module name="hi-es-alias" options="-parameters" />
       <module name="hi-exception" options="-parameters" />
       <module name="hi-kafka" options="-parameters" />
+      <module name="hi-kafka-lazyaudio" options="-parameters" />
+      <module name="hi-mahout" options="-parameters" />
       <module name="hi-mongodb" options="-parameters" />
       <module name="hi-mult-datasource" options="-parameters" />
       <module name="hi-netty" options="-parameters" />
@@ -57,10 +67,12 @@
       <module name="hi-rocketmq-lazyaudio" options="-parameters" />
       <module name="hi-rocketmq-order" options="-parameters" />
       <module name="hi-rocketmq-sample" options="-parameters" />
+      <module name="hi-rocketmq-spring" options="-parameters" />
       <module name="hi-springboot-cros" options="-parameters" />
       <module name="hi-springboot-okhttp" options="-parameters" />
       <module name="hi-threadpool" options="-parameters" />
       <module name="hi-zookeeper" options="-parameters" />
+      <module name="lazyaudio" options="-parameters" />
     </option>
   </component>
 </project>

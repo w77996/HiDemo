@@ -8,6 +8,7 @@ import com.dangdang.ddframe.job.lite.api.listener.ElasticJobListener;
 import com.dangdang.ddframe.job.lite.config.LiteJobConfiguration;
 import com.dangdang.ddframe.job.lite.spring.api.SpringJobScheduler;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
+import com.w77996.elastic.job.HiSimple2Job;
 import com.w77996.elastic.job.HiSimpleJob;
 import com.w77996.elastic.listener.HiElasticJobListener;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,6 +62,23 @@ public class ElasticJobConfig {
     public JobScheduler simpleJobScheduler(final HiSimpleJob simpleJob, @Value("${stockJob.cron}") final String cron,
                                            @Value("${stockJob.shardingTotalCount}") final int shardingTotalCount,
                                            @Value("${stockJob.shardingItemParameters}") final String shardingItemParameters) {
+        HiElasticJobListener elasticJobListener = new HiElasticJobListener();
+        return new SpringJobScheduler(simpleJob, regCenter,
+                getLiteJobConfiguration(simpleJob.getClass(), cron, shardingTotalCount, shardingItemParameters),
+                elasticJobListener);
+    }
+
+    /**
+     * @param simpleJob              定时器
+     * @param cron                   定时任务cron表达式
+     * @param shardingTotalCount     分片总数
+     * @param shardingItemParameters 分片策略
+     * @return
+     */
+    @Bean(initMethod = "init")
+    public JobScheduler simple2JobScheduler(final HiSimple2Job simpleJob, @Value("${stockJob.cron}") final String cron,
+                                            @Value("${stockJob.shardingTotalCount}") final int shardingTotalCount,
+                                            @Value("${stockJob.shardingItemParameters}") final String shardingItemParameters) {
         HiElasticJobListener elasticJobListener = new HiElasticJobListener();
         return new SpringJobScheduler(simpleJob, regCenter,
                 getLiteJobConfiguration(simpleJob.getClass(), cron, shardingTotalCount, shardingItemParameters),

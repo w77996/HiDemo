@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-bit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-common" charset="UTF-8" />
@@ -11,9 +12,12 @@
     <file url="file://$PROJECT_DIR$/hi-elastic-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-alias" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-env" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/hi-kafka-lazyaudio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-mahout" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mult-datasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-netty" charset="UTF-8" />
@@ -22,8 +26,8 @@
     <file url="file://$PROJECT_DIR$/hi-resin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-lazyaudio" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-cros" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-okhttp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-threadpool" charset="UTF-8" />
