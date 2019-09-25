@@ -1,0 +1,7 @@
+server:
+  port: 8889
+redis:
+  hostName: 119.147.211.152
+  port: 8016
+  password:
+  database: 0

@@ -1,0 +1,32 @@
+syntax = "proto3";
+package tutorial;
+option java_package = "com.lazyaudio.yyting.cache.protobuf.autogenerate";   
+option java_outer_classname = "AblumnProtos";   
+message AblumnBean {
+	 int64 Id=1;
+	 int64 UserId=2;
+	 string Name=3;
+	 int32 TypeId=4;
+	 string TagNames=5;
+	 string Description=6;
+	 string Author=7;
+	 string Announcer=8;
+	 int32 Source=9;
+	 int32 CoverFile=10;
+	 int32 AudioCount=11;
+	 int32 LikeCount=12;
+	 int32 CollectionCount=13;
+	 int32 CommentCount=14;
+	 double CommentMean=15;
+	 int32 ForwardCount=16;
+	 int32 DownloadCount=17;
+	 int32 PlayCount=18;
+	 int32 Hot=19;
+	 uint64 CreateTime=20;
+	 uint64 UpdateTime=21;
+	 int32 Status=22;
+	 int32 PlayTime=23;
+	 int32 FileSize=24;
+	 string Features=25;
+	 int32 Rewarded=26;
+}

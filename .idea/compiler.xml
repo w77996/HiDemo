@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="env" />
+        <module name="hi-alipay" />
         <module name="hi-bit" />
         <module name="hi-common" />
         <module name="hi-dubbo-common" />
@@ -23,12 +24,16 @@
         <module name="hi-mongodb" />
         <module name="hi-mult-datasource" />
         <module name="hi-netty" />
+        <module name="hi-protobuf-2.0" />
+        <module name="hi-protobuf-3.0" />
+        <module name="hi-protobuf-common" />
         <module name="hi-rabbitmq" />
         <module name="hi-redis" />
         <module name="hi-resin" />
         <module name="hi-rocketmq-lazyaudio" />
         <module name="hi-rocketmq-sample" />
         <module name="hi-rocketmq-spring" />
+        <module name="hi-sharding-jdbc" />
         <module name="hi-springboot-cros" />
         <module name="hi-springboot-okhttp" />
         <module name="hi-threadpool" />
@@ -43,6 +48,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="env" options="-parameters" />
+      <module name="hi-alipay" options="-parameters" />
       <module name="hi-bit" options="-parameters" />
       <module name="hi-common" options="-parameters" />
       <module name="hi-dubbo" options="-parameters" />
@@ -60,6 +66,10 @@
       <module name="hi-mongodb" options="-parameters" />
       <module name="hi-mult-datasource" options="-parameters" />
       <module name="hi-netty" options="-parameters" />
+      <module name="hi-protobuf" options="-parameters" />
+      <module name="hi-protobuf-2.0" options="-parameters" />
+      <module name="hi-protobuf-3.0" options="-parameters" />
+      <module name="hi-protobuf-common" options="-parameters" />
       <module name="hi-rabbitmq" options="-parameters" />
       <module name="hi-redis" options="-parameters" />
       <module name="hi-resin" options="-parameters" />
@@ -68,6 +78,7 @@
       <module name="hi-rocketmq-order" options="-parameters" />
       <module name="hi-rocketmq-sample" options="-parameters" />
       <module name="hi-rocketmq-spring" options="-parameters" />
+      <module name="hi-sharding-jdbc" options="-parameters" />
       <module name="hi-springboot-cros" options="-parameters" />
       <module name="hi-springboot-okhttp" options="-parameters" />
       <module name="hi-threadpool" options="-parameters" />

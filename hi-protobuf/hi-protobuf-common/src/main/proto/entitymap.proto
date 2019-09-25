@@ -1,0 +1,17 @@
+syntax = "proto3";
+package tutorial;   
+option java_package = "com.lazyaudio.yyting.cache.protobuf.autogenerate";   
+option java_outer_classname = "EntityMapProtos";   
+message EntityMapBean {
+	 int32 Id=1;
+	 string MapType=2;
+	 int32 TgtType=3;
+	 string TgtEntityId=4;
+	 int32 ShowOrder=5;
+	 int32 SrcEntityType=6;
+	 string SrcEntityId=7;
+	 int64 SrcUserId=8;
+	 uint64 CreateTime=9;
+	 uint64 UpdateTime=10;
+	 int32 Status=11;
+}

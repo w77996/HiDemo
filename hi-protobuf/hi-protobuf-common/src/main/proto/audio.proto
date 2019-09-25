@@ -1,0 +1,37 @@
+syntax = "proto3";
+package tutorial;   
+option java_package = "com.lazyaudio.yyting.cache.protobuf.autogenerate";   
+option java_outer_classname = "AudioProtos";   
+message AudioBean {
+	 int64 Id=1;
+	 int64 UserId=2;
+	 int64 PEntityId=3;
+	 string Name=4;
+	 int32 TypeId=5;
+	 string TagNames=6;
+	 string Description=7;
+	 int32 Source=8;
+	 int32 AudioFile=9;
+	 int32 PlayTime=10;
+	 string Author=11;
+	 string Announcer=12;
+	 int32 CoverFile=13;
+	 int32 Sections=14;
+	 int32 LikeCount=15;
+	 int32 ForwardCount=16;
+	 int32 CollectionCount=17;
+	 int32 CommentCount=18;
+	 double CommentMean=19;
+	 int32 PlayCount=20;
+	 int32 DownloadCount=21;
+	 int32 Hot=22;
+	 uint64 CreateTime=23;
+	 uint64 UpdateTime=24;
+	 int32 FileSize=25;
+	 int32 Status=26;
+	 int32 AudioType=27;
+	 int32 payType=28;
+	 uint64 onlineTime=29;
+	 int32 vipAudioFile=30;
+	 uint64 firstOnlineTime=31;
+}

@@ -30,6 +30,9 @@
         <module>hi-easyexcel</module>
         <module>hi-bit</module>
         <module>hi-mahout</module>
+        <module>hi-protobuf</module>
+        <module>hi-sharding-jdbc</module>
+        <module>hi-alipay</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,5 +59,20 @@
         </dependency>
 
     </dependencies>
-
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <layout>default</layout>
+            <!-- 是否开启发布版构件下载 -->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <!-- 是否开启快照版构件下载 -->
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>

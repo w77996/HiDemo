@@ -263,7 +263,7 @@ public class ESFactory {
      * @param aliase
      * @return
      */
-    public List<String> getIndexByAliase(String aliase){
+    public static List<String> getIndexByAliase(String aliase){
         List<String> indexNameList = new ArrayList<String>();
 
         SortedMap<String, AliasOrIndex> lookup = ESFactory.getInstance().getClient().admin().cluster().prepareState().execute().actionGet().getState().getMetaData().getAliasAndIndexLookup();

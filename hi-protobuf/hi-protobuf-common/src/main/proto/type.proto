@@ -1,0 +1,18 @@
+syntax = "proto3";
+package tutorial;
+option java_package = "com.lazyaudio.yyting.cache.protobuf.autogenerate";   
+option java_outer_classname = "TypeProtos";   
+message TypeBean {
+ int32 typeId=1;
+ int32 fatherType=2;
+ string typeName=3;
+ string desc=4;
+ int32 type=5;
+ uint64 lastModify=6;
+ int32 displayOrder=7;
+ int32 typeCode=8;
+ string cover=9;
+ int32 bookCount=10;
+ int32 visibleState=11;
+ int32 openCount=12;
+}

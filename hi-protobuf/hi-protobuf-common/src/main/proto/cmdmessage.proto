@@ -1,0 +1,12 @@
+syntax = "proto3";
+package tutorial;
+option java_package = "com.lazyaudio.yyting.invoke.mesg";   
+option java_outer_classname = "CmdMessageProtos";   
+
+message CmdMessageBean {
+	 int64 id = 1;
+	 int32 bClass = 2;
+	 int32 cmd = 3;
+	 bytes paramData = 4;
+}
+
