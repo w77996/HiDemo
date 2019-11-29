@@ -17,4 +17,8 @@ public interface EsAliasService {
     void addData(String type);
 
     List<User> list();
+
+    List<User> searchData();
+
+    void switchAlias();
 }

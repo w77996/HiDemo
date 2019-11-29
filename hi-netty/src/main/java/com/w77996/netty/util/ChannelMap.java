@@ -2,6 +2,8 @@ package com.w77996.netty.util;
 
 import com.w77996.netty.dto.SocketLoginDto;
 import io.netty.channel.Channel;
+import io.netty.util.NettyRuntime;
+import io.netty.util.internal.SystemPropertyUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -61,5 +63,9 @@ public class ChannelMap {
 		}
 
 		channelMap3.remove(channel);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(Math.max(1, SystemPropertyUtil.getInt("io.netty.eventLoopThreads", NettyRuntime.availableProcessors() * 2)));
 	}
 }

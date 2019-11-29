@@ -24,16 +24,15 @@ public class OpsList {
 
     @Qualifier("redisTemplate")
     @Autowired
-
     RedisTemplate redisTemplate;
 
-    @Qualifier("redisTemplateTwo")
-    @Autowired
-    RedisTemplate redisTemplateTwo;
-
-    @Qualifier("redisTemplate3")
-    @Autowired
-    RedisTemplate redisTemplate3;
+//    @Qualifier("redisTemplateTwo")
+//    @Autowired
+//    RedisTemplate redisTemplateTwo;
+//
+//    @Qualifier("redisTemplate3")
+//    @Autowired
+//    RedisTemplate redisTemplate3;
 
     @GetMapping("/ops")
     public void opsList() {
@@ -59,14 +58,16 @@ public class OpsList {
         log.info("通过rightPop(K key)方法移除的元素是:" + popValue);
         list = redisTemplate.opsForList().range("list", 0, -1);
         log.info(",剩余的元素是:" + list);
-
-        redisTemplateTwo.opsForValue().set("oooo", 0000);
-        log.info(redisTemplateTwo.opsForValue().get("oooo") + "dddd");
 //
-        redisTemplate3.opsForValue().set("666", "000");
-        log.info(redisTemplate3.opsForValue().get("666") + "dddd");
+//        redisTemplateTwo.opsForValue().set("oooo", 0000);
+//        log.info(redisTemplateTwo.opsForValue().get("oooo") + "dddd");
+////
+//        redisTemplate3.opsForValue().set("666", "000");
+//        log.info(redisTemplate3.opsForValue().get("666") + "dddd");
 
 
 
     }
+
+
 }

@@ -1,3 +1,4 @@
+/*
 package com.w77996.redis.config;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
@@ -47,3 +48,4 @@ public class Redis1 extends RedisConfigProperties {
         return super.redisTemplate();
     }
 }
+*/

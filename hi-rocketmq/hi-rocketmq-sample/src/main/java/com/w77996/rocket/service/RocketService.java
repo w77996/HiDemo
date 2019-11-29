@@ -11,15 +11,15 @@ import org.springframework.stereotype.Service;
 public class RocketService {
 
     public void sendSyncProducer() throws Exception{
-        DefaultMQProducer producer = new DefaultMQProducer("my_group");
+        DefaultMQProducer producer = new DefaultMQProducer("API_MQ_GROUP");
 
-        producer.setNamesrvAddr("localhost:9876");
+        producer.setNamesrvAddr("192.168.5.202:9876;192.168.5.203:9876");
 
         //Launch the instance.
         producer.start();
         for (int i = 0; i < 10; i++) {
             //Create a message instance, specifying topic, tag and message body.
-            Message msg = new Message("TopicTest" ,
+            Message msg = new Message("ORDER_TOPIC" ,
                     ("Hello RocketMQ " + i).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
             );
             //Call send message to deliver message to one of brokers.

@@ -33,6 +33,8 @@
         <module>hi-protobuf</module>
         <module>hi-sharding-jdbc</module>
         <module>hi-alipay</module>
+        <module>hi-sentinel</module>
+        <module>hi-canal-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
