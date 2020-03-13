@@ -1,0 +1,15 @@
+server:
+  port: 8899
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9300
+      local: false
+      repositories:
+        enabled: true
+      client-transport-sniff=: false
+
+es:
+  index: user_2
+  alias: user

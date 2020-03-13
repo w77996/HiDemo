@@ -16,7 +16,8 @@ public class ClientSample {
     public static void main(String args[]) {
         // 创建链接
         long batchId = 0;
-        CanalConnector connector = CanalConnectors.newClusterConnector( "119.23.61.10:8017","example", "", "");
+//        CanalConnector connector = CanalConnectors.newClusterConnector( "119.23.61.10:8017","example", "", "");
+        CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress("116.62.144.245",11111),"example", "", "");
         int batchSize = 1000;
         int emptyCount = 0;
         try {

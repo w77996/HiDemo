@@ -4,6 +4,9 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/hi-resin" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,7 +15,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/hi-resin/pom.xml" />
         <option value="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-order/pom.xml" />
+        <option value="$PROJECT_DIR$/hi-sentinel/hi-sentinel-lazyaudio/pom.xml" />
       </set>
     </option>
   </component>

@@ -1,42 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-alipay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-alipay/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-bit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-bit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-canal-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-canal-client/hi-lazy-canal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-canal-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-canal-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-consume" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-consume/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-dubbo/hi-dubbo-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-easyexcel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-easyexcel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elastic-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elastic-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-alias" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-alias/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-elasticsearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-env/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-kafka/hi-kafka-lazyaudio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/hi-kafka-lazyaudio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/hi-spring-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-kafka/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mahout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-mahout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-mult-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-mult-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-netty/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-protobuf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-protobuf/hi-protobuf-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-protobuf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-protobuf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hi-resin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-lazyaudio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-lazyaudio/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-rocketmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-sentinel/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-sharding-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-sharding-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-cros" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-springboot-cros/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-springboot-okhttp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-springboot-okhttp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-springboot-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-springboot-webflux/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-threadpool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-threadpool/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hi-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hi-zookeeper/src/main/java" charset="UTF-8" />
   </component>
 </project>

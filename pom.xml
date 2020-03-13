@@ -24,7 +24,6 @@
         <module>hi-env</module>
         <module>hi-zookeeper</module>
         <module>hi-elastic-job</module>
-        <module>hi-resin</module>
         <module>hi-exception</module>
         <module>hi-rocketmq</module>
         <module>hi-easyexcel</module>
@@ -35,6 +34,7 @@
         <module>hi-alipay</module>
         <module>hi-sentinel</module>
         <module>hi-canal-client</module>
+        <module>hi-springboot-webflux</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

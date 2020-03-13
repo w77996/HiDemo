@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: dubbo-provider
+server:
+  port: 9092
+demo:
+  service:
+    version: 1.0.0
+#指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名）
+dubbo:
+  application:
+    name: dubbo-provider
+  protocol.:
+    name: dubbo
+    port: 20880
+  #指定注册中心的位置
+  registry:
+    address: zookeeper://119.23.61.10:8017
+  #统一设置服务提供方的规则
+  provider:
+    timeout: 5000

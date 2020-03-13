@@ -13,13 +13,13 @@ public class RocketService {
     public void sendSyncProducer() throws Exception{
         DefaultMQProducer producer = new DefaultMQProducer("API_MQ_GROUP");
 
-        producer.setNamesrvAddr("192.168.5.202:9876;192.168.5.203:9876");
+        producer.setNamesrvAddr("119.23.61.10:8007");
 
         //Launch the instance.
         producer.start();
         for (int i = 0; i < 10; i++) {
             //Create a message instance, specifying topic, tag and message body.
-            Message msg = new Message("ORDER_TOPIC" ,
+            Message msg = new Message("canal-topic" ,
                     ("Hello RocketMQ " + i).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
             );
             //Call send message to deliver message to one of brokers.

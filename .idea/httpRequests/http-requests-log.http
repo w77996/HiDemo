@@ -1,0 +1,22 @@
+GET http://localhost:8888/list
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-18T074527.200.json
+
+###
+
+GET http://localhost:8888/list
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-06-18T074525.200.json
+
+###
+
+GET http://localhost:8888/save
+Accept: */*
+Cache-Control: no-cache
+
+###
+

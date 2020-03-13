@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hi-resin:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7698c461-81b0-44a0-a020-810fc68f0af9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/HiKafkaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/KafkaComsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-sentinel/src/main/java/com/w77996/sentinel/HiSentinelApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-sentinel/src/main/java/com/w77996/sentinel/SentinelTokenServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-springboot-webflux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-canal-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-canal-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-elastic-job/hi-elastic-job.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/es/AbstractIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/es/AbstractIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/index/IBatchRefresh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/listener/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/listener/StartupListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/HiKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/HiKafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/receiver/KafkaReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/receiver/KafkaReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-common/src/main/java/com/w77996/protobuf/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-common/src/main/java/com/w77996/protobuf/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/surefire-reports/TEST-com.TestApplication.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/surefire-reports/com.TestApplication.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-resin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/java/com/w77996/resin/ResinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/java/com/w77996/resin/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/resources/applicatin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/resources/templates/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/SyncComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/SyncComsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/service/RocketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/service/RocketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-sentinel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-zookeeper/hi-zookeeper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>javaee-api</find>
+      <find>com.lazyaudio.yyting.cache.protobuf.autogenerate.</find>
+      <find>required</find>
+      <find>optional</find>
+      <find>30177</find>
+      <find>79</find>
+      <find>30197</find>
+      <find>30200</find>
+      <find>30088</find>
+      <find>30093</find>
+      <find>30196</find>
+      <find>30184</find>
+      <find>30128</find>
+      <find>30133</find>
+      <find>30099</find>
+      <find>30102</find>
+      <find>recommender</find>
+      <find>getJedisPoolConfig</find>
+      <find>redis</find>
+      <find>192.168.117.135</find>
+      <find>JedisPoolConfig</find>
+      <find>String[] beanNames = applicationContext.getBeanNamesForType(beanType);</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>116.62.144.245</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="17" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectId" id="1Vb6atNdq0an4ohBU14T0wUQifO" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="GO_FMT" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579060162692" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linjiashop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.w77996.rocket.listener" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.w77996.utils" />
+      <recent name="com.w77996.index" />
+      <recent name="com.w77996.protobuf.protobuf" />
+      <recent name="com.w77996.protobuf.bean" />
+      <recent name="com.w77996.protobuf.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\git\java\HiDemo\hi-mahout\src\main\resources\csv" />
+      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-common\src\main\proto" />
+      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-2.0\src\main\java\com\w77996\protobuf\protobuf" />
+      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-3.0\src\main\java\com\w77996\protobuf\protobuf" />
+      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-common\src\main\java\com\w77996\protobuf\bean" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/list" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/save" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SyncComsumer">
+    <configuration name="ClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.ClientSample" />
+      <module name="hi-lazy-canal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.es.controller.EsController" />
+      <module name="hi-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.es.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncComsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.rocket.SyncComsumer" />
+      <module name="hi-rocketmq-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.rocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Resin 4.0.60" type="ResinConfigurationType" factoryName="Local" APPLICATION_SERVER_NAME="Resin 4.0.60" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="PORT" value="80" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hi-1.0-SNAPSHOT/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="hi-resin:war">
+          <settings DEPLOYMENT_METHOD="JMX" />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="baseDirectoryName" value="Resin_4_0_62_HiDemo_2" />
+        <option name="port" value="8080" />
+        <port>8080</port>
+      </server-settings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="jreHome" value="D:/softwareInstall/java/jdk1.8" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hi-resin:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Resin4.0.54" type="ResinConfigurationType" factoryName="Local" APPLICATION_SERVER_NAME="Resin 4.0.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="PORT" value="80" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="hi-resin:war">
+          <settings DEPLOYMENT_METHOD="resin.xml">
+            <option name="defaultContextPath" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="baseDirectoryName" value="Resin4_0_54_HiDemo" />
+      </server-settings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="jreHome" value="D:/softwareInstall/java/jdk1.8" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hi-resin:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Resin4.0.62" type="ResinConfigurationType" factoryName="Local" APPLICATION_SERVER_NAME="Resin 4.0.62" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="PORT" value="80" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="hi-resin:war exploded">
+          <settings DEPLOYMENT_METHOD="resin.xml">
+            <option name="defaultContextPath" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="baseDirectoryName" value="Resin4_0_60_HiDemo" />
+      </server-settings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="jreHome" value="D:/softwareInstall/java/jdk1.8" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hi-resin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="HiAliPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-alipay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.alipay.HiAliPayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiDubboConsumeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-dubbo-consume" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.dubbo.comsumer.HiDubboConsumeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiDubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.dubbo.provider.HiDubboProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiElasticJobApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-elastic-job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.elastic.HiElasticJobApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiEnvApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="env" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.env.HiEnvApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiEsAliasApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-es-alias" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.es.HiEsAliasApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiKafkaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hi-spring-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.kafka.HiKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hi-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.HiKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-netty" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.netty.NettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OkhttpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-springboot-okhttp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.okhttp.OkhttpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-resin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.resin.ResinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hi-rocketmq-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.rocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.rocket.RocketMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EsController" />
+      <item itemvalue="Application.ClientSample" />
+      <item itemvalue="Application.SyncComsumer" />
+      <item itemvalue="Resin.Resin4.0.54" />
+      <item itemvalue="Resin.Resin 4.0.60" />
+      <item itemvalue="Resin.Resin4.0.62" />
+      <item itemvalue="Spring Boot.HiEnvApplication" />
+      <item itemvalue="Spring Boot.NettyApplication" />
+      <item itemvalue="Spring Boot.OkhttpApplication" />
+      <item itemvalue="Spring Boot.HiElasticJobApplication1" />
+      <item itemvalue="Spring Boot.ResinApplication" />
+      <item itemvalue="Spring Boot.HiEsAliasApplication1" />
+      <item itemvalue="Spring Boot.HiDubboConsumeApplication" />
+      <item itemvalue="Spring Boot.HiDubboProviderApplication" />
+      <item itemvalue="Spring Boot.HiAliPayApplication" />
+      <item itemvalue="Spring Boot.HiKafkaApplication" />
+      <item itemvalue="Spring Boot.HiKafkaApplication (1)" />
+      <item itemvalue="Spring Boot.RocketMqApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SyncComsumer" />
+        <item itemvalue="Spring Boot.RocketMqApplication" />
+        <item itemvalue="Spring Boot.HiKafkaApplication (1)" />
+        <item itemvalue="Spring Boot.HiKafkaApplication" />
+        <item itemvalue="Application.ClientSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7698c461-81b0-44a0-a020-810fc68f0af9" name="Default Changelist" comment="" />
+      <created>1557385065056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557385065056</updated>
+      <workItem from="1557385066256" duration="2409000" />
+      <workItem from="1557397989717" duration="1759000" />
+      <workItem from="1560409576115" duration="19137000" />
+      <workItem from="1560858070762" duration="1300000" />
+      <workItem from="1560930535723" duration="13029000" />
+      <workItem from="1561453099528" duration="706000" />
+      <workItem from="1561514051690" duration="3666000" />
+      <workItem from="1561711031361" duration="4198000" />
+      <workItem from="1561948192657" duration="40625000" />
+      <workItem from="1562148021264" duration="1837000" />
+      <workItem from="1562576258198" duration="20149000" />
+      <workItem from="1562726716989" duration="1170000" />
+      <workItem from="1562836964239" duration="4223000" />
+      <workItem from="1562917127261" duration="168000" />
+      <workItem from="1562917597205" duration="8408000" />
+      <workItem from="1563154563994" duration="11416000" />
+      <workItem from="1563508359836" duration="12886000" />
+      <workItem from="1564572385091" duration="1214000" />
+      <workItem from="1564623195075" duration="8575000" />
+      <workItem from="1564977776363" duration="569000" />
+      <workItem from="1564985253655" duration="1805000" />
+      <workItem from="1565748083788" duration="3090000" />
+      <workItem from="1565839583435" duration="3296000" />
+      <workItem from="1566176847657" duration="7163000" />
+      <workItem from="1566373021305" duration="1276000" />
+      <workItem from="1566384492356" duration="894000" />
+      <workItem from="1566437253522" duration="8015000" />
+      <workItem from="1567658700321" duration="4376000" />
+      <workItem from="1568617320157" duration="3044000" />
+      <workItem from="1568620712971" duration="23926000" />
+      <workItem from="1568948555584" duration="2098000" />
+      <workItem from="1569291648014" duration="4707000" />
+      <workItem from="1569393605106" duration="13971000" />
+      <workItem from="1569818265926" duration="4223000" />
+      <workItem from="1570682854387" duration="4587000" />
+      <workItem from="1571016998227" duration="2932000" />
+      <workItem from="1571632727899" duration="5320000" />
+      <workItem from="1571653168717" duration="10092000" />
+      <workItem from="1571978304638" duration="2019000" />
+      <workItem from="1572054062148" duration="1392000" />
+      <workItem from="1572413596359" duration="1434000" />
+      <workItem from="1572838226899" duration="18661000" />
+      <workItem from="1573112061361" duration="3486000" />
+      <workItem from="1573785344012" duration="3855000" />
+      <workItem from="1574064752084" duration="4855000" />
+      <workItem from="1574333688530" duration="15818000" />
+      <workItem from="1575024600339" duration="9298000" />
+      <workItem from="1575710996678" duration="553000" />
+      <workItem from="1575873052333" duration="6323000" />
+      <workItem from="1576224837231" duration="4406000" />
+      <workItem from="1576633671996" duration="595000" />
+      <workItem from="1576636695625" duration="590000" />
+      <workItem from="1576638354108" duration="6986000" />
+      <workItem from="1577272573425" duration="2906000" />
+      <workItem from="1577345048627" duration="2117000" />
+      <workItem from="1577509518860" duration="463000" />
+      <workItem from="1578897833858" duration="1584000" />
+      <workItem from="1583129330334" duration="54000" />
+      <workItem from="1583902705363" duration="6244000" />
+      <workItem from="1584075190873" duration="607000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加zookeeper">
+      <created>1560770692598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560770692598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成elastic-job编写">
+      <created>1560839781049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560839781049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="es">
+      <created>1567765290376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567765290376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="protobuf;ali支付">
+      <created>1569404946608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569404946608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mahout推荐算法">
+      <created>1569578891095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569578891095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="canal">
+      <created>1575024738479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575024738479</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestApplication_testAdd - 2019.11.05 at 13h 48m 28s.xml">
+      <configuration name="TestApplication.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testGeoGet - 2019.11.05 at 13h 48m 39s.xml">
+      <configuration name="TestApplication.testGeoGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testDist - 2019.11.05 at 13h 48m 52s.xml">
+      <configuration name="TestApplication.testDist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testNearByXY - 2019.11.05 at 13h 49m 02s.xml">
+      <configuration name="TestApplication.testNearByXY" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 49m 49s.xml">
+      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 50m 45s.xml">
+      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 51m 04s.xml">
+      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testGeoHash - 2019.11.05 at 13h 51m 24s.xml">
+      <configuration name="TestApplication.testGeoHash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testHyperLogLog - 2019.11.05 at 14h 35m 17s.xml">
+      <configuration name="TestApplication.testHyperLogLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestApplication_testHyperLogLog - 2019.11.05 at 14h 36m 00s.xml">
+      <configuration name="TestApplication.testHyperLogLog" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加zookeeper" />
+    <MESSAGE value="完成elastic-job编写" />
+    <MESSAGE value="es" />
+    <MESSAGE value="protobuf;ali支付" />
+    <MESSAGE value="mahout推荐算法" />
+    <MESSAGE value="canal" />
+    <option name="LAST_COMMIT_MESSAGE" value="canal" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583990443943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583990443943" />
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1584075707784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584075707784" />
+    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1584075707784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584075707784" />
+    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1584075707784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584075707784" />
+    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1584075707784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584075707784" />
+    <state width="1877" height="226" key="GridCell.Tab.1.bottom" timestamp="1583907593671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583907593671" />
+    <state width="1877" height="226" key="GridCell.Tab.1.center" timestamp="1583907593671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583907593671" />
+    <state width="1877" height="226" key="GridCell.Tab.1.left" timestamp="1583907593671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583907593671" />
+    <state width="1877" height="226" key="GridCell.Tab.1.right" timestamp="1583907593671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583907593671" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584075454494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584075454494" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-easyexcel/src/main/java/com/w77996/easyexcel/Easyexcel.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/HiKafkaApplication.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java</url>
+          <line>15</line>
+          <properties class="com.w77996.ClientSample" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hi-resin:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hi-resin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

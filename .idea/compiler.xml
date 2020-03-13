@@ -7,42 +7,47 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hi-dubbo-common" />
         <module name="env" />
-        <module name="hi-alipay" />
+        <module name="hi-es-lazyaudio" />
+        <module name="hi-springboot-okhttp" />
+        <module name="hi-protobuf-common" />
+        <module name="hi-dubbo-consume" />
+        <module name="hi-exception" />
+        <module name="lazyaudio" />
+        <module name="hi-springboot-webflux" />
+        <module name="hi-rabbitmq" />
+        <module name="hi-rocketmq-lazyaudio" />
         <module name="hi-bit" />
         <module name="hi-common" />
-        <module name="hi-dubbo-common" />
-        <module name="hi-dubbo-consume" />
-        <module name="hi-dubbo-provider" />
-        <module name="hi-easyexcel" />
-        <module name="hi-elastic-job" />
+        <module name="hi-alipay" />
+        <module name="hi-redis" />
+        <module name="hi-rocketmq-sample" />
+        <module name="hi-mult-datasource" />
+        <module name="hi-spring-kafka" />
+        <module name="hi-sharding-jdbc" />
+        <module name="hi-netty" />
         <module name="hi-env" />
+        <module name="hi-rocketmq-spring" />
+        <module name="hi-protobuf-2.0" />
         <module name="hi-es-alias" />
-        <module name="hi-exception" />
         <module name="hi-kafka-lazyaudio" />
+        <module name="hi-easyexcel" />
+        <module name="hi-dubbo-provider" />
+        <module name="hi-elastic-job" />
+        <module name="hi-springboot-cros" />
+        <module name="hi-protobuf-3.0" />
+        <module name="hi-zookeeper" />
+        <module name="hi-lazy-canal" />
+        <module name="hi-threadpool" />
         <module name="hi-mahout" />
         <module name="hi-mongodb" />
-        <module name="hi-mult-datasource" />
-        <module name="hi-netty" />
-        <module name="hi-protobuf-2.0" />
-        <module name="hi-protobuf-3.0" />
-        <module name="hi-protobuf-common" />
-        <module name="hi-rabbitmq" />
-        <module name="hi-redis" />
-        <module name="hi-resin" />
-        <module name="hi-rocketmq-lazyaudio" />
-        <module name="hi-rocketmq-sample" />
-        <module name="hi-rocketmq-spring" />
-        <module name="hi-sharding-jdbc" />
-        <module name="hi-springboot-cros" />
-        <module name="hi-springboot-okhttp" />
-        <module name="hi-threadpool" />
-        <module name="hi-zookeeper" />
-        <module name="lazyaudio" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hi-resin" target="1.8" />
       <module name="hi-rocketmq-order" target="1.8" />
+      <module name="hi-sentinel-lazyaudio" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +55,7 @@
       <module name="env" options="-parameters" />
       <module name="hi-alipay" options="-parameters" />
       <module name="hi-bit" options="-parameters" />
+      <module name="hi-canal-client" options="-parameters" />
       <module name="hi-common" options="-parameters" />
       <module name="hi-dubbo" options="-parameters" />
       <module name="hi-dubbo-common" options="-parameters" />
@@ -59,9 +65,11 @@
       <module name="hi-elastic-job" options="-parameters" />
       <module name="hi-elasticsearch" options="-parameters" />
       <module name="hi-es-alias" options="-parameters" />
+      <module name="hi-es-lazyaudio" options="-parameters" />
       <module name="hi-exception" options="-parameters" />
       <module name="hi-kafka" options="-parameters" />
       <module name="hi-kafka-lazyaudio" options="-parameters" />
+      <module name="hi-lazy-canal" options="-parameters" />
       <module name="hi-mahout" options="-parameters" />
       <module name="hi-mongodb" options="-parameters" />
       <module name="hi-mult-datasource" options="-parameters" />
@@ -78,9 +86,13 @@
       <module name="hi-rocketmq-order" options="-parameters" />
       <module name="hi-rocketmq-sample" options="-parameters" />
       <module name="hi-rocketmq-spring" options="-parameters" />
+      <module name="hi-sentinel" options="-parameters" />
+      <module name="hi-sentinel-lazyaudio" options="-parameters" />
       <module name="hi-sharding-jdbc" options="-parameters" />
+      <module name="hi-spring-kafka" options="-parameters" />
       <module name="hi-springboot-cros" options="-parameters" />
       <module name="hi-springboot-okhttp" options="-parameters" />
+      <module name="hi-springboot-webflux" options="-parameters" />
       <module name="hi-threadpool" options="-parameters" />
       <module name="hi-zookeeper" options="-parameters" />
       <module name="lazyaudio" options="-parameters" />

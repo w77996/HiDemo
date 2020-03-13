@@ -42,7 +42,7 @@ public abstract class AbstractIndex<T extends ScanCursor<D>, D extends Collectio
             // 创建索引
             CreateIndexRequest createIndexRequest = Requests.createIndexRequest(indexName);
             createIndexRequest.settings(settings);
-
+            //获取设置的mapping
             Map<String, XContentBuilder> mappings = mappings();
             Set<String> types = mappings.keySet();
             for (String type : types) {

@@ -3,7 +3,6 @@ package com.w77996.listener;
 import com.w77996.es.IIndex;
 import com.w77996.es.IRebuild;
 import com.w77996.factory.ESFactory;
-import com.w77996.index.IBatchRefresh;
 import com.w77996.index.IndexContext;
 import com.w77996.utils.ContextUtils;
 import com.w77996.utils.DateUtils;
