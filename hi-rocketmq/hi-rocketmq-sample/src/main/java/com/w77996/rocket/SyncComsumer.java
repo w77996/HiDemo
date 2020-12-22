@@ -23,7 +23,7 @@ public class SyncComsumer  {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("API_MQ_GROUP");
 
         // Specify name server addresses.
-        consumer.setNamesrvAddr("119.23.61.10:8007");
+        consumer.setNamesrvAddr("52.83.153.55:9876");
 
         // Subscribe one more more topics to consume.
         consumer.subscribe("example", "*");

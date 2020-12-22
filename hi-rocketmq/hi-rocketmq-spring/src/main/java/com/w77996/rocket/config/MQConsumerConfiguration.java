@@ -40,7 +40,7 @@ public class MQConsumerConfiguration {
         if(StringUtils.isEmpty(topics)){
             throw new Exception();
         }
-        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer(groupName);
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("my-consumer_test-topic-2");
         consumer.setNamesrvAddr(namesrvAddr);
         consumer.setConsumeThreadMin(consumeThreadMin);
         consumer.setConsumeThreadMax(consumeThreadMax);
@@ -62,11 +62,11 @@ public class MQConsumerConfiguration {
             /**
              * 设置该消费者订阅的主题和tag，如果是订阅该主题下的所有tag，则tag使用*；如果需要指定订阅该主题下的某些tag，则使用||分割，例如tag1||tag2||tag3
              */
-            String[] topicTagsArr = topics.split(";");
-            for (String topicTags : topicTagsArr) {
-                String[] topicTag = topicTags.split("~");
-                consumer.subscribe(topicTag[0],topicTag[1]);
-            }
+//            String[] topicTagsArr = topics.split(";");
+//            for (String topicTags : topicTagsArr) {
+//                String[] topicTag = topicTags.split("~");
+//                consumer.subscribe(topicTag[0],topicTag[1]);
+//            }
             consumer.start();
             log.info("consumer is start !!! groupName:{},topics:{},namesrvAddr:{}",groupName,topics,namesrvAddr);
         }catch (MQClientException e){

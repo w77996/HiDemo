@@ -1,3 +1,14 @@
+
 redisson:
-  address: redis://127.0.0.1:6379
+#  address: 39.100.73.54
+
+#  address: redis://39.100.73.54:6379
+  address: redis://39.99.171.234:6380
+#  address: redis://localhost:6379
+#  password: 123456
+  password: ee88Nhk3ftYxZlrE
+  database: 11
+#  database: 11
+server:
+  port: 8789
 #  passw

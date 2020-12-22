@@ -35,6 +35,9 @@
         <module>hi-sentinel</module>
         <module>hi-canal-client</module>
         <module>hi-springboot-webflux</module>
+        <module>hi-redisson</module>
+        <module>hi-jsonp</module>
+        <module>hi-springboot-admin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

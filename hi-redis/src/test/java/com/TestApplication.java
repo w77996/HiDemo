@@ -26,6 +26,7 @@ import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
 
 import javax.annotation.Resource;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -136,6 +137,37 @@ public class TestApplication {
         //计算home页面的uv
         long results2 = redisTemplate.opsForHyperLogLog().size("home");
         System.out.println(results2);
+    }
+
+
+    /**
+     * testHyperLogLog
+     */
+    @Test
+    public void testSet(){
+        //home页面userId为1的用户访问
+        long results = redisTemplate.opsForSet().add("PRIZE_RESULT_IS_INIT",1);
+        System.out.println(results);
+        //计算home页面的uv
+        Set<String> results2 = redisTemplate.opsForSet().members("PRIZE_RESULT_IS_INIT");
+        System.out.println(Arrays.asList(results2));
+    }
+
+    @Test
+    public void testZSet(){
+        String Z_HAND_PRINT = "Z_HAND_PRINT";
+        String Z_PRINT = "Z_PRINT";
+        String S_PRE_PRINT = "S_PRE_PRINT";
+        long nowTime = System.currentTimeMillis();
+        String orderNo = "658423424298523492";
+        Boolean add = redisTemplate.opsForZSet().add(Z_HAND_PRINT, orderNo, nowTime);
+        System.out.println(add);
+        Long remove = redisTemplate.opsForSet().remove(S_PRE_PRINT, orderNo);
+        System.out.println(remove);
+        //出票补偿queue
+        Boolean add1 = redisTemplate.opsForZSet().add(Z_PRINT, orderNo, nowTime);
+        System.out.println(add1);
+
     }
 
 

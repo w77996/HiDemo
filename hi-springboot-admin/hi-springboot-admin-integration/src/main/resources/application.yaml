@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: admin-server
+  boot:
+    admin:
+      client:
+        url: http://localhost:8769
+server:
+  port: 8769
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
