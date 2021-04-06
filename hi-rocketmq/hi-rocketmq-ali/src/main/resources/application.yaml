@@ -1,0 +1,17 @@
+server:
+  port: ${random.int[1000,1999]}
+#配置rocketmq
+rocketmq:
+  producer:
+    producerId: GID_WHH #生产者id(旧版本是生产者id，新版本是groupid)，替换成自己的
+    msgTopic: TOPIC-LLC-TML-NORMAL #生产主题，替换成自己的
+    accessKey: LTAI4GAXwPGFc735BtmBuYVG  #连接通道，替换成自己的
+    secretKey: G4crscUAJdmmueiPYyFt7idpCWstf9  #连接秘钥，替换成自己的
+    onsAddr: http://MQ_INST_1883445196758586_BXW4xjbz.mq-internet-access.mq-internet.aliyuncs.com:80  #生产者ons接入域名，替换成自己的
+#配置rocketmq
+  consumer:
+    consumerId: GID_WHH #消费者id(旧版本是消费者id，新版本是groupid)，替换成自己的
+    msgTopic: TOPIC-LLC-TML-NORMAL #消费主题，替换成自己的
+    accessKey: LTAI4GAXwPGFc735BtmBuYVG  #连接通道，替换成自己的
+    secretKey: G4crscUAJdmmueiPYyFt7idpCWstf9  #连接秘钥，替换成自己的
+    onsAddr: http://MQ_INST_1883445196758586_BXW4xjbz.mq-internet-access.mq-internet.aliyuncs.com:80  #生产者ons接入域名，替换成自己的

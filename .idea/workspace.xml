@@ -7,51 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7698c461-81b0-44a0-a020-810fc68f0af9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/HiKafkaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/KafkaComsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-kafka/hi-spring-kafka/src/main/java/com/w77996/kafka/KafkaConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-sentinel/src/main/java/com/w77996/sentinel/HiSentinelApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-sentinel/src/main/java/com/w77996/sentinel/SentinelTokenServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi-springboot-webflux/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-mqtt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-mqtt/src/main/java/com/w77996/mqtt/ali/util/ConnectionOptionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-mqtt/src/main/java/com/w77996/mqtt/ali/util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-ali/src/main/java/com/w77996/CommandLineRunnerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-canal-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-canal-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-elastic-job/hi-elastic-job.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/es/AbstractIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/es/AbstractIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/index/IBatchRefresh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/listener/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-elasticsearch/hi-es-lazyaudio/src/main/java/com/w77996/listener/StartupListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/HiKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/HiKafkaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/receiver/KafkaReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-kafka/src/main/java/com/w77996/receiver/KafkaReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-2.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-3.0/src/main/java/com/w77996/protobuf/controller/ProtobufController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-common/src/main/java/com/w77996/protobuf/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-protobuf/hi-protobuf-common/src/main/java/com/w77996/protobuf/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/surefire-reports/TEST-com.TestApplication.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-redis/target/surefire-reports/com.TestApplication.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-resin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/java/com/w77996/resin/ResinApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/java/com/w77996/resin/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/resources/applicatin.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-resin/src/main/resources/templates/index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/SyncComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/SyncComsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/service/RocketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/src/main/java/com/w77996/rocket/service/RocketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-sentinel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-zookeeper/hi-zookeeper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-redis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/classes/com/w77996/redis/config/Redis.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-redis/target/classes/com/w77996/redis/config/Redis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-redis/target/test-classes/com/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-redis/target/test-classes/com/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/StartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/StartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/SyncComsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/SyncComsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/service/RocketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-sample/target/classes/com/w77996/rocket/service/RocketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/com/w77996/rocket/config/MQConsumerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/com/w77996/rocket/config/MQConsumerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/com/w77996/rocket/listener/MQConsumeMsgListenerProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/hi-rocketmq-spring/target/classes/com/w77996/rocket/listener/MQConsumeMsgListenerProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi-rocketmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-rocketmq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,36 +44,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>javaee-api</find>
-      <find>com.lazyaudio.yyting.cache.protobuf.autogenerate.</find>
-      <find>required</find>
-      <find>optional</find>
-      <find>30177</find>
-      <find>79</find>
-      <find>30197</find>
-      <find>30200</find>
-      <find>30088</find>
-      <find>30093</find>
-      <find>30196</find>
-      <find>30184</find>
-      <find>30128</find>
-      <find>30133</find>
-      <find>30099</find>
-      <find>30102</find>
-      <find>recommender</find>
-      <find>getJedisPoolConfig</find>
-      <find>redis</find>
-      <find>192.168.117.135</find>
-      <find>JedisPoolConfig</find>
-      <find>String[] beanNames = applicationContext.getBeanNamesForType(beanType);</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>116.62.144.245</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -106,12 +53,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="17" />
-    <option name="y" value="1" />
-    <option name="width" value="1022" />
-    <option name="height" value="726" />
   </component>
   <component name="ProjectId" id="1Vb6atNdq0an4ohBU14T0wUQifO" />
   <component name="ProjectViewState">
@@ -126,11 +67,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579060162692" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linjiashop" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tmp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -145,18 +88,18 @@
       <recent name="com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.w77996" />
+      <recent name="" />
+      <recent name="test" />
       <recent name="com.w77996.utils" />
       <recent name="com.w77996.index" />
-      <recent name="com.w77996.protobuf.protobuf" />
-      <recent name="com.w77996.protobuf.bean" />
-      <recent name="com.w77996.protobuf.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\git\java\HiDemo\hi-mahout\src\main\resources\csv" />
-      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-common\src\main\proto" />
-      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-2.0\src\main\java\com\w77996\protobuf\protobuf" />
-      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-3.0\src\main\java\com\w77996\protobuf\protobuf" />
-      <recent name="E:\code\git\java\HiDemo\hi-protobuf\hi-protobuf-common\src\main\java\com\w77996\protobuf\bean" />
+      <recent name="D:\work\code\HiDemo\hi-rocketmq\hi-rocketmq-ali\src\main\resources" />
+      <recent name="D:\work\code\HiDemo\hi-mqtt\src\main\java\com\w77996\mqtt\util" />
+      <recent name="D:\work\code\HiDemo\hi-mqtt\src\main\java\com\w77996\mqtt" />
+      <recent name="D:\work\code\HiDemo\hi-jsonp\src\main\java\com.w77996.jsonp" />
+      <recent name="D:\work\code\HiDemo" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -205,20 +148,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SyncComsumer">
-    <configuration name="ClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.w77996.ClientSample" />
-      <module name="hi-lazy-canal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w77996.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MqttApplication">
     <configuration name="EsController" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.w77996.es.controller.EsController" />
       <module name="hi-elasticsearch" />
@@ -232,12 +174,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncComsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.w77996.rocket.SyncComsumer" />
-      <module name="hi-rocketmq-sample" />
+    <configuration name="MQ4IoTConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.mqtt.ali.MQ4IoTConsumerDemo" />
+      <module name="hi-mqtt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.w77996.rocket.*" />
+          <option name="PATTERN" value="com.w77996.mqtt.ali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQ4IoTProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.mqtt.ali.MQ4IoTProducerDemo" />
+      <module name="hi-mqtt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.mqtt.ali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQ4IoTSendMessageToMQ4IoTUseSignatureMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.w77996.mqtt.ali.MQ4IoTSendMessageToMQ4IoTUseSignatureMode" />
+      <module name="hi-mqtt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.mqtt.ali.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,28 +403,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HiKafkaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hi-spring-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.w77996.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.kafka.HiKafkaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HiKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hi-kafka" />
+    <configuration name="HiRocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hi-rocketmq-ali" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.w77996.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.HiKafkaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.HiRocketMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiRocketMqApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hi-rocketmq-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.rocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.rocket.HiRocketMqApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8182" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hi-mqtt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.mqtt.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.mqtt.demo2.MqttApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -482,7 +465,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="hi-rocketmq-sample" />
       <extension name="coverage">
         <pattern>
@@ -491,14 +474,32 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.rocket.RocketMqApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8189" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMqApplication11" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="hi-rocketmq-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.w77996.rocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.w77996.rocket.RocketMqApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8188" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.EsController" />
-      <item itemvalue="Application.ClientSample" />
-      <item itemvalue="Application.SyncComsumer" />
+      <item itemvalue="Application.MQ4IoTSendMessageToMQ4IoTUseSignatureMode" />
+      <item itemvalue="Application.MQ4IoTConsumerDemo" />
+      <item itemvalue="Application.MQ4IoTProducerDemo" />
       <item itemvalue="Resin.Resin4.0.54" />
       <item itemvalue="Resin.Resin 4.0.60" />
       <item itemvalue="Resin.Resin4.0.62" />
@@ -511,31 +512,24 @@
       <item itemvalue="Spring Boot.HiDubboConsumeApplication" />
       <item itemvalue="Spring Boot.HiDubboProviderApplication" />
       <item itemvalue="Spring Boot.HiAliPayApplication" />
-      <item itemvalue="Spring Boot.HiKafkaApplication" />
-      <item itemvalue="Spring Boot.HiKafkaApplication (1)" />
       <item itemvalue="Spring Boot.RocketMqApplication" />
+      <item itemvalue="Spring Boot.RocketMqApplication11" />
+      <item itemvalue="Spring Boot.HiRocketMqApplication1" />
+      <item itemvalue="Spring Boot.HiRocketMqApplication" />
+      <item itemvalue="Spring Boot.MqttApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncComsumer" />
-        <item itemvalue="Spring Boot.RocketMqApplication" />
-        <item itemvalue="Spring Boot.HiKafkaApplication (1)" />
-        <item itemvalue="Spring Boot.HiKafkaApplication" />
-        <item itemvalue="Application.ClientSample" />
+        <item itemvalue="Spring Boot.MqttApplication" />
+        <item itemvalue="Spring Boot.HiRocketMqApplication" />
+        <item itemvalue="Application.MQ4IoTProducerDemo" />
+        <item itemvalue="Application.MQ4IoTConsumerDemo" />
+        <item itemvalue="Application.MQ4IoTSendMessageToMQ4IoTUseSignatureMode" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -607,6 +601,28 @@
       <workItem from="1583129330334" duration="54000" />
       <workItem from="1583902705363" duration="6244000" />
       <workItem from="1584075190873" duration="607000" />
+      <workItem from="1593694132263" duration="477000" />
+      <workItem from="1600754370382" duration="23948000" />
+      <workItem from="1601370276233" duration="4706000" />
+      <workItem from="1601534443614" duration="13000" />
+      <workItem from="1602226322119" duration="4791000" />
+      <workItem from="1602307891540" duration="1838000" />
+      <workItem from="1602466565561" duration="2706000" />
+      <workItem from="1602638880019" duration="7184000" />
+      <workItem from="1602899030780" duration="5902000" />
+      <workItem from="1603678638266" duration="8862000" />
+      <workItem from="1603871770186" duration="10304000" />
+      <workItem from="1604394888287" duration="3333000" />
+      <workItem from="1604628557340" duration="3635000" />
+      <workItem from="1605145340005" duration="598000" />
+      <workItem from="1605262743795" duration="597000" />
+      <workItem from="1605416687125" duration="593000" />
+      <workItem from="1605590610551" duration="2078000" />
+      <workItem from="1606033229129" duration="358000" />
+      <workItem from="1608196578968" duration="37851000" />
+      <workItem from="1610000408487" duration="9863000" />
+      <workItem from="1611288767126" duration="1186000" />
+      <workItem from="1617676716981" duration="2764000" />
     </task>
     <task id="LOCAL-00001" summary="添加zookeeper">
       <created>1560770692598</created>
@@ -650,40 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1575024738479</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jsoup等">
+      <created>1608639764423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608639764423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestApplication_testAdd - 2019.11.05 at 13h 48m 28s.xml">
-      <configuration name="TestApplication.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testGeoGet - 2019.11.05 at 13h 48m 39s.xml">
-      <configuration name="TestApplication.testGeoGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testDist - 2019.11.05 at 13h 48m 52s.xml">
-      <configuration name="TestApplication.testDist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testNearByXY - 2019.11.05 at 13h 49m 02s.xml">
-      <configuration name="TestApplication.testNearByXY" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 49m 49s.xml">
-      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 50m 45s.xml">
-      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testNearByPlace - 2019.11.05 at 13h 51m 04s.xml">
-      <configuration name="TestApplication.testNearByPlace" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testGeoHash - 2019.11.05 at 13h 51m 24s.xml">
-      <configuration name="TestApplication.testGeoHash" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testHyperLogLog - 2019.11.05 at 14h 35m 17s.xml">
-      <configuration name="TestApplication.testHyperLogLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApplication_testHyperLogLog - 2019.11.05 at 14h 36m 00s.xml">
-      <configuration name="TestApplication.testHyperLogLog" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,6 +688,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加zookeeper" />
     <MESSAGE value="完成elastic-job编写" />
@@ -704,7 +708,8 @@
     <MESSAGE value="protobuf;ali支付" />
     <MESSAGE value="mahout推荐算法" />
     <MESSAGE value="canal" />
-    <option name="LAST_COMMIT_MESSAGE" value="canal" />
+    <MESSAGE value="jsoup等" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsoup等" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583990443943">
@@ -761,6 +766,41 @@
           <line>18</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hi-jsonp/src/main/java/com/w77996/jsoup/StartListener.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/hi-canal-client/hi-lazy-canal/src/main/java/com/w77996/ClientSample.java</url>
           <line>15</line>
@@ -772,81 +812,9 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>hi-resin:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hi-resin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HiDemo$SyncComsumer.ic" NAME="SyncComsumer Coverage Results" MODIFIED="1604395017995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.w77996.rocket.*</FILTER>
+    </SUITE>
   </component>
 </project>

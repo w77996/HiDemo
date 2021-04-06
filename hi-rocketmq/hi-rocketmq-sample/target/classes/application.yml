@@ -9,4 +9,4 @@
 #  maxRetries: 3                     #最大重试次数
 #  baseSleepTimeMs: 1000             #初始sleep时间 ,毫秒
 server:
-  port: 8186
+  port: 8188

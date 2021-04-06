@@ -38,6 +38,8 @@
         <module>hi-redisson</module>
         <module>hi-jsonp</module>
         <module>hi-springboot-admin</module>
+        <module>hi-mqtt</module>
+        <module>hi-algorithm</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
